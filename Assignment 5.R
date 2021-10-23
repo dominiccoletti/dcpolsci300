@@ -23,5 +23,18 @@ summary(model2a)
 (acddata$lml[which(acddata$country=="DENMARK")]) -> lmlden
 (acddata$lml[which(acddata$country=="AUSTRIA")]) -> lmlaus
 model2a$coefficients[2]*(lmlaus-lmlden)
-#confidence interval
-confint(model2a,level=.95)
+
+#Q3a Regression
+model3a <- lm(enep ~ lml, data=acddata)
+summary(model3a)
+1.9480+.4687
+#Q3b
+(acddata$lml[which(acddata$country=="DOMINICANREPU")]-acddata$lml[which(acddata$country=="UK")])*.4687
+(acddata$enpp[which(acddata$country=="DOMINICANREPU")]-acddata$enpp[which(acddata$country=="UK")])
+#Q3c
+acddata$lml[which(acddata$country=="SPAIN")]*.4687
+2.8083-.9120481
+
+#Q4
+summary(model3a)
+summary(model2a)
