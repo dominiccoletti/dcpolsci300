@@ -18,9 +18,9 @@ library(car)
 summary(model1a)
 #1c
 interplot(model1, var1="redist", var2="party") + 
-  +     xlab("party (0 is R, 1 is D)") + 
-  +     ylab("Party representativeness (marginal effect of redist on votes)") + 
-  +     ggtitle("Responsiveness of Parties to Constituents")
+  xlab("party (0 is R, 1 is D)") + 
+  ylab("Party representativeness (marginal effect of redist on votes)") + 
+  ggtitle("Responsiveness of Parties to Constituents")
 #2a
 acddata <- read.csv("AmorimnetoCox_DuvergerData-1.csv")
 View(acddata)
