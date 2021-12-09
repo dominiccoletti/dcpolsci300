@@ -48,7 +48,7 @@ else.means <- all.means
 else.means['imbalfor'] <- 5
 phat1 <- exp(sum(else.means*B))/(1+exp(sum(else.means*B)))
 phat1
-else.means['nuke'] <- 0
+else.means['imbalfor'] <- 0
 phat0 <- exp(sum(else.means*B))/(1+exp(sum(else.means*B)))
 phat0
 phat1-phat0
