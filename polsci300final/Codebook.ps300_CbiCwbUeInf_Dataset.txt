@@ -1,0 +1,35 @@
+Codebook for ps300.CBI_CWB_INF_UE
+ObsNum : observation number, 1-21
+ctry : Country Code, 1-21
+	1=US
+	2=Japan
+	3=Germany
+	4=France
+	5=Italy
+	6=UK
+	7=Canada
+	8=Austria
+	9=Belgium
+	10=Denmark
+	11=Finland
+	12=Greece
+	13=Ireland
+	14=Netherlands
+	15=Norway
+	16=Portugal
+	17=Spain
+	18=Sweden
+	19=Switzerland
+	20=Australia
+	21=New Zealand
+
+avgcov : Postwar-Avg. Union Coverage Rate (fraction of Workforce covered by Union Bargains), 0.0-1.0
+cbi : Central Bank Independence (CBI), index 0.0-1.0
+cwb : Coord. Wage/Price Barg. (CWB), index 0.0-1.0
+inf : Postwar-Avg. Inflation (INF), in % points, 3.675-16.235
+ue : Postwar-Avg. Unemployment (UE), in % points, 0.889-8.098
+country : 2-letter abbreviation (string/text) :
+       US, JA, GE, FR, IT, UK, CA, AU, BE, DE, FI, GR, IR, NE, NO, PO, SP, SW, SZ, AL, NZ
+country name : full country-name (string/text)
+lcab : % (decimal) of Postwar Cabinet Seats held by Left Parties, 0.0-0.846
+lrgdpc : (natural log) real GDP per capita, 7.853-9.429
